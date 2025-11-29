@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options MediAddon</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+    }
+    .option {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Options</h1>
+
+  <h2>Types de médias à détecter :</h2>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="mp3"> MP3
+    </label>
+  </div>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="mp4"> MP4
+    </label>
+  </div>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="jpg"> JPG
+    </label>
+  </div>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="png"> PNG
+    </label>
+  </div>
+
+  <button id="save">Enregistrer</button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>
